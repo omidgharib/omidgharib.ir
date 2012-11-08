@@ -30,8 +30,7 @@ The website for the Omid Gharib
 ### The Team
 * [Omid Gharib](https://github.com/omidgharib) Developer /Programmer
 
-### Our Desire Design :
- [yootheme](http://www.yootheme.com)
+### Our Desire Design : [yootheme](http://www.yootheme.com)
 
 ### All rights reserved ###
 Please note that omidgharib.ir is a curated site and that we reserve the right to refuse any listing for any reason.
