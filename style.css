@@ -4,3 +4,50 @@ body {
 	background-size	: 100% 100%;
 	text-align 		: right;
 }
+
+/************* leftside *************/
+div.content section.leftside div.module-box {
+	width  : 200px;
+}
+
+div.content section.leftside div.module-box a {
+	text-decoration :none;
+	display : block;
+	padding : 30px;
+	color 	: #B5D3DF;
+}
+
+div.content section.leftside div.module-box a:hover {
+	color : #fff;
+}
+
+div.content section.leftside div.module-box a h2{
+	line-height : 20px; 
+	text-align 	: center;
+	margin-top 	: 120px; 
+	font-size 	: 20px; 
+}
+
+div.content section.leftside div.gallery-box {
+	background : #32839E;
+	background : -moz-linear-gradient(-45deg, #5FA0C0 0%, #32839E 100%);
+	background : -webkit-linear-gradient(-45deg, #5FA0C0 0%,#32839E 100%);
+	background : linear-gradient(-45deg, #5FA0C0 0%,#32839E 100%);
+}
+
+div.content section.leftside div.gallery-box a {
+	background : url('images/icons/icon_gallery.png') no-repeat top center ;
+}
+
+div.content section.leftside div.contact-box {
+	width  : 200px;
+	min-height : 100px;
+	background : #9D315C;
+	background : -moz-linear-gradient(-45deg, #C05F7C 0%, #9D315C 100%);
+	background : -webkit-linear-gradient(-45deg, #C05F7C 0%,#9D315C 100%);
+	background : linear-gradient(-45deg, #C05F7C 0%,#9D315C 100%);
+}
+
+div.content section.leftside div.contact-box a {
+	background : url('images/icons/icon_contact.png') no-repeat top center ;
+}
