@@ -1,5 +1,6 @@
 div,section {border: 1px solid black;}
 body {
-	background : #186185  url('images/gradientblue_background.svg') fixed;
-	background-size: 100% 100%;
+	background 		: #186185  url('images/gradientblue_background.svg') fixed;
+	background-size	: 100% 100%;
+	text-align 		: right;
 }
