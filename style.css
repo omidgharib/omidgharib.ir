@@ -28,7 +28,8 @@ div.content section.leftside div.module-box a h2{
 	font-size 	: 20px; 
 }
 
-div.content section.leftside div.gallery-box {
+div.content section.leftside div.gallery-box,
+div.content section.leftside div.weather-box {
 	background : #32839E;
 	background : -moz-linear-gradient(-45deg, #5FA0C0 0%, #32839E 100%);
 	background : -webkit-linear-gradient(-45deg, #5FA0C0 0%,#32839E 100%);
@@ -50,4 +51,12 @@ div.content section.leftside div.contact-box {
 
 div.content section.leftside div.contact-box a {
 	background : url('images/icons/icon_contact.png') no-repeat top center ;
+}
+
+div.content section.leftside div.menu-leftside-box {
+	background : url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMS8yMS8xMRTK2QYAAABYSURBVGiB7c8BDQAhEMCw45XhXxUmSL4hq4JtzcyeB3x/B9zSiKYRTSOaRjSNaBrRNKJpRNOIphFNI5pGNI1oGtE0omlE04imEU0jmkY0jWga0TSiaURzAKKlAKRWtxKCAAAAAElFTkSuQmCC');
+}
+
+div.content section.leftside div.weather-box a {
+	background : url('images/icons/icon_weather.png') no-repeat top center;
 }
