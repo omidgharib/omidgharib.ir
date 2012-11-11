@@ -8,20 +8,21 @@ body {
 /************* leftside *************/
 div.content section.leftside div.module-box {
 	width  : 200px;
+	height : 200px;
 }
 
-div.content section.leftside div.module-box a {
+div.content section.leftside div.module-box > a {
 	text-decoration :none;
 	display : block;
 	padding : 30px;
 	color 	: #B5D3DF;
 }
 
-div.content section.leftside div.module-box a:hover {
+div.content section.leftside div.module-box > a:hover {
 	color : #fff;
 }
 
-div.content section.leftside div.module-box a h2{
+div.content section.leftside div.module-box > a > h2{
 	line-height : 20px; 
 	text-align 	: center;
 	margin-top 	: 120px; 
@@ -57,6 +58,32 @@ div.content section.leftside div.menu-leftside-box {
 	background : url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMS8yMS8xMRTK2QYAAABYSURBVGiB7c8BDQAhEMCw45XhXxUmSL4hq4JtzcyeB3x/B9zSiKYRTSOaRjSNaBrRNKJpRNOIphFNI5pGNI1oGtE0omlE04imEU0jmkY0jWga0TSiaURzAKKlAKRWtxKCAAAAAElFTkSuQmCC');
 }
 
+div.content section.leftside div.menu-leftside-box ul {
+	padding : 8px;
+}
+
+div.content section.leftside div.menu-leftside-box ul li {
+	padding-bottom : 3px; 
+}
+
+div.content section.leftside div.menu-leftside-box ul li a {
+	display : block;
+	padding : 10px 40px;
+	color 	: #ddd;
+	color 	: rgba(255,255,255,0.6);
+	border 	: 1px solid rgba(255,255,255,0);
+	text-align 		: center;
+	text-decoration : none;
+	font-size 		: 20px; 
+	line-height 	: 20px; 
+	-webkit-transition : all 300ms linear; 
+}
+
+div.content section.leftside div.menu-leftside-box ul li a:hover {
+	color  : #fff;
+	border : 1px solid #fff;
+}
+
 div.content section.leftside div.weather-box a {
 	background : url('images/icons/icon_weather.png') no-repeat top center;
 }
@@ -70,13 +97,13 @@ div.content section.leftside div.aboutme-box img {
 div.content section.leftside div.aboutme-box span {
  	bottom  : -140px;
  	left 	: 0;
- 	text-align: center;
+ 	opacity : 0;
  	display : block;
  	padding : 20px 74px; 
+ 	text-align		 : center;
  	background-color : #111;
  	background-color : rgba(16,16,16,.8); 
- 	-webkit-transition: opacity 300ms linear;
- 	opacity : 0;
+ 	-webkit-transition : opacity 300ms linear;
 }
 
 div.content section.leftside div.aboutme-box:hover span {
