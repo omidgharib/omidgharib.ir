@@ -740,7 +740,7 @@ body {
   overflow: hidden;
   position: absolute;
   z-index: 150;
-  background: url("../img/bg/texture.png") repeat;
+  background: url("../img/texture.png") repeat;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
