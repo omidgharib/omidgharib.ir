@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+		xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 	<url>
 		<loc>http://omidgharib.ir/</loc>
 		<changefreq>monthly</changefreq>
 		<priority>1.0</priority>
+		<image:image>
+     		<image:loc>http://omidgharib.ir/img/photo.jpg</image:loc>
+     		<image:title>Omid Gharib Photo</image:title>
+     		<image:caption>Omid Gharib Photo</image:caption>
+     		<image:geo_location>Iran, Mashhad</image:geo_location>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/img/logo.png</image:loc>
+     		<image:title>Logo</image:title>
+   		</image:image>
 	</url>
 	<url>
 		<loc>http://omidgharib.ir/#pages/about.html</loc>
@@ -14,6 +25,86 @@
 		<loc>http://omidgharib.ir/#pages/portfolio.html</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.9</priority>
+		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/canvasloader/thumb.png</image:loc>
+     		<image:title>Canvas Loader</image:title>
+     		<image:caption>Canvas Loader</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/imenazma/page.png</image:loc>
+     		<image:title>Imen Azma Shargh website</image:title>
+     		<image:caption>Imen Azma Shargh website</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/imenazma/thumb.png</image:loc>
+     		<image:title>Imen Azma Shargh thumbnail</image:title>
+     		<image:caption>Imen Azma Shargh thumbnail</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/insooansoo/page.png</image:loc>
+     		<image:title>insooansoo.com website</image:title>
+     		<image:caption>insooansoo.com website</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/insooansoo/thumb.png</image:loc>
+     		<image:title>insooansoo.com thumbnail</image:title>
+     		<image:caption>insooansoo.com thumbnail</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/khavaranbar/page.png</image:loc>
+     		<image:title>Khavaran bar company website</image:title>
+     		<image:caption>Khavaran bar company website</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/khavaranbar/thumb.png</image:loc>
+     		<image:title>Khavaran bar company thumbnail</image:title>
+     		<image:caption>Khavaran bar company thumbnail</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/megmc/page.png</image:loc>
+     		<image:title>MEGMC website</image:title>
+     		<image:caption>MEGMC website</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/megmc/thumb.png</image:loc>
+     		<image:title>MEGMC thumbnail</image:title>
+     		<image:caption>MEGMC thumbnail</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/parsengco/page.png</image:loc>
+     		<image:title>Parseng.co website</image:title>
+     		<image:caption>Parseng.co website</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/parsengco/thumb.png</image:loc>
+     		<image:title>Parseng.co thumbnail</image:title>
+     		<image:caption>Parseng.co thumbnail</image:caption>
+   		</image:image>
+   		   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/khavaranbar/thumb.png</image:loc>
+     		<image:title>Khavaran bar company thumbnail</image:title>
+     		<image:caption>Khavaran bar company thumbnail</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/rahroportal/page.png</image:loc>
+     		<image:title>Rahro System Portal website</image:title>
+     		<image:caption>Rahro System Portal website</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/rahroportal/thumb.png</image:loc>
+     		<image:title>Rahro System Portal thumbnail</image:title>
+     		<image:caption>Rahro System Portal thumbnail</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/rahrosystem/page.png</image:loc>
+     		<image:title>Rahro System website</image:title>
+     		<image:caption>Rahro System website</image:caption>
+   		</image:image>
+   		<image:image>
+     		<image:loc>http://omidgharib.ir/pages/projects/rahrosystem/thumb.png</image:loc>
+     		<image:title>Rahro System thumbnail</image:title>
+     		<image:caption>Rahro System thumbnail</image:caption>
+   		</image:image>
 	</url>
 	<url>
 		<loc>http://omidgharib.ir/#pages/skills.html</loc>
